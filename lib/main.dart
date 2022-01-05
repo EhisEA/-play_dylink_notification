@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:play_dylink_notification/dynamic_link_service.dart';
 
+import 'locator.dart';
+
 void main() {
+  setupLocator(); //*====registaring get_it
   WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
@@ -53,7 +56,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  final DynamicLinkService _dynamicLinkService = DynamicLinkService();
+  final DynamicLinkService _dynamicLinkService = locator<DynamicLinkService>();
   @override
   void initState() {
     super.initState();
