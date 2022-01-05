@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "802509705306",
+    "project_id": "play-dylink-notification",
+    "storage_bucket": "play-dylink-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802509705306:android:873d80ffc735d9e7a88863",
+        "android_client_info": {
+          "package_name": "com.example.play_dylink_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802509705306-glh8v02talj93jd38lcdqn2l1vev06qc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.play_dylink_notification",
+            "certificate_hash": "9637909a0f6a030829223ac36555471b071db2a9"
+          }
+        },
+        {
+          "client_id": "802509705306-cuth56t204jk90eu6qdqlnaq0quflg1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIWC9eNm56BN9HPNQjpCxeo_CBTD6Rzbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802509705306-cuth56t204jk90eu6qdqlnaq0quflg1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
